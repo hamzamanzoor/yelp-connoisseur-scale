@@ -1,7 +1,7 @@
 # Yelp Connoisseur Scale
 Bias and preference adjusted reviews on Yelp. A new rating scale on Yelp which which takse into account the tastes and preferences of the reviewers.
 
-## Packeage Requirements
+## Package Requirements
 
 1: Python 3.5 or above (Anaconda 4.x preffered)
 

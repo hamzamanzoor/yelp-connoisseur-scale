@@ -51,4 +51,6 @@ Step 2: run Model/train_from_scratch.py. Input arguments are:   <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3- validSplit: value must be in interval (0, 1) <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4- iterations: number of Epochs to train for <br />
 
-(optional) Step 3: if you need to train from an existing checkpoint, use Model/train_from_checkpoint.py. You'll have to set the path for the checkpoint file inside the source code. The file should be of type hdf5
+(optional) Step 3: if you need to train from an existing checkpoint, use Model/train_from_checkpoint.py. You'll have to set the path for the checkpoint file inside the source code. The file should be of type hdf5 <br />
+
+Step 4 : run Model/rescale_and_accuracy.py to calculate the rescaled ratings and the accuracies of the predicted ratings on the new scales.

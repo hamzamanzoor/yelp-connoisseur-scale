@@ -47,7 +47,7 @@ Step 1: Prepare a large slice from the yelp dataset. It must have:
         
         2- review rating
 
-Step 2: run Model/train_from_scratch.py. Inpur arguments are:
+Step 2: run Model/train_from_scratch.py. Input arguments are:
         
         1- sampleSize: number of examples to train on
         

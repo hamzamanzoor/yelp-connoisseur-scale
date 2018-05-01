@@ -1,16 +1,20 @@
 from __future__ import print_function
 
+#import all necessary file handling libraries
 import os
 import sys
 from time import time
 os.system('cls')
 
+#import all datahandling and processing libraries
 import numpy as np
 import pandas as pd
 
+# for plotting
 import matplotlib
 import matplotlib.pyplot as plt
 
+#necessary keras stuff
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
@@ -20,6 +24,7 @@ from keras.layers import Conv1D, MaxPooling1D, Embedding
 from keras.models import Model
 from keras import optimizers
 
+#using some stuff from sklearn for keras
 from sklearn.utils import class_weight
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix

@@ -46,9 +46,9 @@ Step 1: Prepare a large slice from the yelp dataset. It must have:<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2- review rating      <br />
 
 Step 2: run Model/train_from_scratch.py. Input arguments are:   <br />    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1- sampleSize: number of examples to train on        <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2- testSplit: value must be in interval (0, 1)<br />        
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3- validSplit: value must be in interval (0, 1)<br />        
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4- iterations: number of Epochs to train for<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1- sampleSize: number of examples to train on <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2- testSplit: value must be in interval (0, 1) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3- validSplit: value must be in interval (0, 1) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4- iterations: number of Epochs to train for <br />
 
 (optional) Step 3: if you need to train from an existing checkpoint, use Model/train_from_checkpoint.py. You'll have to set the path for the checkpoint file inside the source code. The file should be of type hdf5
